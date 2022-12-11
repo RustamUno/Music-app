@@ -17,7 +17,6 @@ function Navigation(){
                         <span className="burger__line"/>
                         <span className="burger__line"/>
                     </div>
-                    
                    
                     <div className="nav__menu menu">
                         <ul className="menu__list">
