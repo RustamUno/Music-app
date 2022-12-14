@@ -1,27 +1,10 @@
-import search from '../../img/icon/search.svg';
-import watch from '../../img/icon/watch.svg';
-import note from '../../img/icon/note.svg';
-import like from '../../img/icon/like.svg';
+import '../../../../App.css'
+import watch from '../../../../img/icon/watch.svg'
+import note from '../../../../img/icon/note.svg'
+import like from '../../../../img/icon/like.svg'
 
-
-function CenterBlock(){
-
-
+function Content(){
     return(
-            <div className="main__centerblock centerblock">
-                    <div className="centerblock__search search">
-                        <svg className="search__svg">
-                            <use xlinkHref={search}/>
-                        </svg>
-                        <input className="search__text" type="search" placeholder="Поиск" name="search" />
-                    </div>
-                    <h2 className="centerblock__h2">Треки</h2>
-                    <div className="centerblock__filter filter">
-                        <div className="filter__title">Искать по:</div>
-                        <div className="filter__button button-author _btn-text">исполнителю</div>
-                        <div className="filter__button button-year _btn-text">году выпуска</div>
-                        <div className="filter__button button-genre _btn-text">жанру</div>
-                    </div>
                     <div className="centerblock__content">
                         <div className="content__title playlist-title">
                             <div className="playlist-title__col col01">Трек</div>
@@ -43,14 +26,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Guilt <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">Guilt <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Nero</a>
+                                        <a className="track__author-link" href="/">Nero</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Welcome Reality</a>
+                                        <a className="track__album-link" href="/">Welcome Reality</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -70,14 +53,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Elektro <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">Elektro <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Dynoro, Outwork, Mr. Gee</a>
+                                        <a className="track__author-link" href="/">Dynoro, Outwork, Mr. Gee</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Elektro</a>
+                                        <a className="track__album-link" href="/">Elektro</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -97,14 +80,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">I’m Fire <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">I’m Fire <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Ali Bakgor</a>
+                                        <a className="track__author-link" href="/">Ali Bakgor</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">I’m Fire</a>
+                                        <a className="track__album-link" href="/">I’m Fire</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -124,14 +107,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Non Stop <span className="track__title-span">(Remix)</span></a>
+                                            <a className="track__title-link" href="/">Non Stop <span className="track__title-span">(Remix)</span></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Стоункат, Psychopath</a>
+                                        <a className="track__author-link" href="/">Стоункат, Psychopath</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Non Stop</a>
+                                        <a className="track__album-link" href="/">Non Stop</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -151,14 +134,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Run Run <span className="track__title-span">(feat. AR/CO)</span></a>
+                                            <a className="track__title-link" href="/">Run Run <span className="track__title-span">(feat. AR/CO)</span></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Jaded, Will Clarke, AR/CO</a>
+                                        <a className="track__author-link" href="/">Jaded, Will Clarke, AR/CO</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Run Run</a>
+                                        <a className="track__album-link" href="/">Run Run</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -178,14 +161,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Eyes on Fire <span className="track__title-span">(Zeds Dead Remix)</span></a>
+                                            <a className="track__title-link" href="/">Eyes on Fire <span className="track__title-span">(Zeds Dead Remix)</span></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Blue Foundation, Zeds Dead</a>
+                                        <a className="track__author-link" href="/">Blue Foundation, Zeds Dead</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Eyes on Fire</a>
+                                        <a className="track__album-link" href="/">Eyes on Fire</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -205,14 +188,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Mucho Bien <span className="track__title-span">(Hi Profile Remix)</span></a>
+                                            <a className="track__title-link" href="/">Mucho Bien <span className="track__title-span">(Hi Profile Remix)</span></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">HYBIT, Mr. Black, Offer Nissim, Hi Profile</a>
+                                        <a className="track__author-link" href="/">HYBIT, Mr. Black, Offer Nissim, Hi Profile</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Mucho Bien</a>
+                                        <a className="track__album-link" href="/">Mucho Bien</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -232,14 +215,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Knives n Cherries <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">Knives n Cherries <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">minthaze</a>
+                                        <a className="track__author-link" href="/">minthaze</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Captivating</a>
+                                        <a className="track__album-link" href="/">Captivating</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -259,14 +242,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">How Deep Is Your Love <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">How Deep Is Your Love <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Calvin Harris, Disciples</a>
+                                        <a className="track__author-link" href="/">Calvin Harris, Disciples</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">How Deep Is Your Love</a>
+                                        <a className="track__album-link" href="/">How Deep Is Your Love</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -286,14 +269,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://">Morena <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">Morena <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://">Tom Boxer</a>
+                                        <a className="track__author-link" href="/">Tom Boxer</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://">Soundz Made in Romania</a>
+                                        <a className="track__album-link" href="/">Soundz Made in Romania</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -313,14 +296,14 @@ function CenterBlock(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="http://"> <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/"> <span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="http://"/>
+                                        <a className="track__author-link" href="/"/>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="http://"/>
+                                        <a className="track__album-link" href="/"/>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
@@ -332,8 +315,7 @@ function CenterBlock(){
                             </div>
                         </div>                        
                     </div>
-                </div>
     )
 }
 
-export default CenterBlock;
+export default Content;

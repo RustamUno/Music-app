@@ -1,16 +1,17 @@
-import dislike from '../../img/icon/dislike.svg';
-import volume from '../../img/icon/volume.svg';
-import like from '../../img/icon/like.svg';
-import note from '../../img/icon/note.svg';
-import shuffle from '../../img/icon/shuffle.svg';
-import repeat from '../../img/icon/repeat.svg';
-import next from '../../img/icon/next.svg';
-import play from '../../img/icon/play.svg';
-import prev from '../../img/icon/prev.svg';
+import '../../App.css';
+import prev from '../../img/icon/prev.svg'
+import play from '../../img/icon/play.svg'
+import next from '../../img/icon/next.svg'
+import repeat from '../../img/icon/repeat.svg'
+import shuffle from '../../img/icon/shuffle.svg'
+import note from '../../img/icon/note.svg'
+import like from '../../img/icon/like.svg'
+import dislike from '../../img/icon/dislike.svg'
+import volume from '../../img/icon/volume.svg'
 
 function Bar(){
     return(
-<div className="bar">
+        <div className="bar">
                 <div className="bar__content">
                     <div className="bar__player-progress"/>
                     <div className="bar__player-block">
@@ -80,7 +81,7 @@ function Bar(){
                                     </svg>
                                 </div>
                                 <div className="volume__progress _btn">
-                                    <input className="volume__progress-line _btn" type="range" name="range" />
+                                    <input className="volume__progress-line _btn" type="range" name="range"/>
                                 </div>
                            </div>
                         </div>
