@@ -1,15 +1,16 @@
-import './App.css';
 import {useState, useEffect} from 'react';
+
+import './App.css';
 import Skeleton from './components/Skeleton/Skeleton';
-import Header from './components/Header/Header'
-import Main from './components/Main/Main'
-import Bar from './components/Bar/Bar'
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Bar from './components/Bar/Bar';
 
 function App() {
 
     const [profile, setProfile] = useState(true);
     useEffect(()=>{
-      setTimeout(() => setProfile(false), 10000)
+      setTimeout(() => setProfile(false), 2000)
     }, [])
 
 

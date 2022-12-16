@@ -296,20 +296,20 @@ function Content(){
                                             </svg>
                                         </div>
                                         <div className="track__title-text">
-                                            <a className="track__title-link" href="/"> <span className="track__title-span"/></a>
+                                            <a className="track__title-link" href="/">Let it snow!<span className="track__title-span"/></a>
                                         </div>
                                     </div>
                                     <div className="track__author">
-                                        <a className="track__author-link" href="/"/>
+                                        <a className="track__author-link" href="/">Frank Sinatra</a>
                                     </div>
                                     <div className="track__album">
-                                        <a className="track__album-link" href="/"/>
+                                        <a className="track__album-link" href="/">The Cristmas song</a>
                                     </div>
                                     <div className="track__time">
                                         <svg className="track__time-svg" alt="time">
                                             <use xlinkHref={like}/>
                                         </svg>
-                                        <span className="track__time-text"/>
+                                        <span className="track__time-text">2:38</span>
                                     </div>
                                 </div>
                             </div>
