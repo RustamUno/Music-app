@@ -4,7 +4,7 @@ import './App.css';
 import Skeleton from './components/Skeleton/Skeleton';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import Bar from './components/Bar/Bar';
+import Bar from './components/bar/Bar';
 
 function App() {
 
