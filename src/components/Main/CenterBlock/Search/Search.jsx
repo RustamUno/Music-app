@@ -1,14 +1,14 @@
-import '../../../../App.css'
+import * as S from './style'
 import search from '../../../../img/icon/search.svg'
 
 function Search(){
     return(
-        <div className='centerblock__search search'>
-            <svg className="search__svg">
+        <S.Search>
+            <S.Svg>
                 <use xlinkHref={search}/>
-            </svg>
-            <input className="search__text" type="search" placeholder="Поиск" name="search"/>
-        </div>
+            </S.Svg>
+            <S.SearchPlays type="search" placeholder="Поиск" name="search"/>
+        </S.Search>
     )
 }
 

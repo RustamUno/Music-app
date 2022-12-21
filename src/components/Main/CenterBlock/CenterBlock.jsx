@@ -1,16 +1,16 @@
-import '../../../App.css';
+import * as S from './style'
 import Search from './Search/Search';
 import Filter from './Filter/Filter';
 import Content from './Content/Content'
 
 function CenterBlock(){
     return(
-        <div className='main__centerblock centerblock'>
+        <S.CenterBlock>
             <Search/>
-            <h2 className="centerblock__h2">Треки</h2>
+            <S.Title>Треки</S.Title>
             <Filter/>
             <Content/>
-        </div>
+        </S.CenterBlock>
     )
 }
 
