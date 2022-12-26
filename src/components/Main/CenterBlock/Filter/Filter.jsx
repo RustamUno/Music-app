@@ -26,13 +26,6 @@ import * as S from './style'
 // ]
 
 function Filter(){
-    
-    // const closeOpenFilter = () => {
-    //     setVisibleAuthor(false)
-    //     setVisibleYear(false)
-    //     setVisibleGenre(false)
-    // }
-
     const [visibleAuthor, setVisibleAuthor] = useState(false);
     const [visibleYear, setVisibleYear] = useState(false);
     const [visibleGenre, setVisibleGenre] = useState(false);
@@ -50,10 +43,17 @@ function Filter(){
     setVisibleGenre(!visibleGenre);
 
 
+    // const closeOpenFilter = () => {
+    //     setVisibleAuthor(false)
+    //     setVisibleYear(false)
+    //     setVisibleGenre(false)
+    // }
+
     return(
         <S.Filter>
             <S.Title>Искать по:</S.Title>
-            <S.Btn onClick={toggleVisibilityAuthor} role="presentation">исполнителю{visibleAuthor} {visibleAuthor && (
+            <S.Btn onClick={toggleVisibilityAuthor} role="presentation">исполнителю{visibleAuthor} 
+            {visibleAuthor && (
                 <S.Open >
                         <S.List>Nero</S.List>
                         <S.List>Dynoro, Outwork, Mr. Gee</S.List>
@@ -69,7 +69,8 @@ function Filter(){
                 </S.Open >     
             )}</S.Btn>
             
-            <S.Btn onClick={toggleVisibilityYear} role="presentation">году выпуска{visibleYear}{visibleYear && (
+            <S.Btn onClick={toggleVisibilityYear} role="presentation">году выпуска{visibleYear}
+            {visibleYear && (
                 <S.Open >
                     <S.Annum>
                     <input
@@ -92,7 +93,8 @@ function Filter(){
                 </S.Open >     
             )}</S.Btn>
             
-            <S.Btn onClick={toggleVisibilityGenre} role="presentation">жанру{visibleGenre}{visibleGenre && (
+            <S.Btn onClick={toggleVisibilityGenre} role="presentation">жанру{visibleGenre}
+            {visibleGenre && (
                 <S.Open >
                     <S.List>Джаз</S.List>
                     <S.List>Рок</S.List>

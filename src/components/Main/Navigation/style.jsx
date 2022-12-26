@@ -1,33 +1,31 @@
 import styled from "styled-components";
 
 export const Navigation = styled.nav`
-    width: 244px;
-    background-color: #181818;
-    padding: 20px 0 20px 36px;
+width: 244px;
+background-color: #181818;
+padding: 20px 0 20px 36px;
 `
 
 export const Logo = styled.div`
-    width: 113.33px;
-    height: 43px;
-    padding: 13px 0 13px 0;
-    background-color: transparent;
-    margin-bottom: 20px;
+width: 113.33px;
+height: 43px;
+padding: 13px 0 13px 0;
+background-color: transparent;
+margin-bottom: 20px;
 `
 
 export const Burger = styled.div`
 width: 20px;
 height: 36px;
 padding: 13px 0;
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
--webkit-box-orient: vertical;
--webkit-box-direction: normal;
-    -ms-flex-direction: column;
-        flex-direction: column;
--webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-        justify-content: space-between;
+flex-direction: column;
+justify-content: space-between;
+:active{
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
 `
 export const Line = styled.span`
 display: inline-block;
@@ -36,8 +34,11 @@ height: 1px;
 background-color: #D3D3D3;
 `
 export const Menu = styled.div`
+height: 100%;
+padding-left: 5px;
 display: block;
 visibility: visible;
+background-color: #1C1C1C;
 `
 
 export const Image = styled.img`
@@ -59,4 +60,7 @@ color: #FFFFFF;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
+:hover{
+    color: #AD61FF;
+}
 `
