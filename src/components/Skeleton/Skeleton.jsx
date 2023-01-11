@@ -1,13 +1,13 @@
 import ContentLoader from "react-content-loader"
 
-const Skeleton = (props) => (
-  <ContentLoader 
+const Skeleton = () => (
+   <ContentLoader 
     speed={2}
     style={{background: "#181818", maxWidth: "100%", height: "100%", position: "relative"}}
     viewBox="0 0 1336 773"
     backgroundColor="#4E4E4E"
     foregroundColor="#313131"
-    {...props}
+  
   >
     {/* Лого */}
     <rect x="36" y="35" rx="0" ry="0" style={{width: "113.33px", height: "43px"}}/>
@@ -37,6 +37,6 @@ const Skeleton = (props) => (
     <rect x="16" y="680" rx="0" ry="0" width="1923" height="50" />
 
   </ContentLoader>
-)
 
+)
 export default Skeleton

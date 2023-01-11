@@ -33,6 +33,7 @@ export const SearchPlays = styled.input`
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  outline: none;
   color: #fff;
   &::placeholder {
     background-color: transparent;

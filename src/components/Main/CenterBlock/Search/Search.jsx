@@ -5,7 +5,7 @@ function Search(){
     return(
         <S.Search>
             <S.Svg>
-                <use xlinkHref={search}/>
+                <use xlinkHref={search} alt='search'/>
             </S.Svg>
             <S.SearchPlays type="search" placeholder="Поиск" name="search"/>
         </S.Search>

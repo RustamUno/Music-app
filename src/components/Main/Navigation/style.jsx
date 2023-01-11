@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 export const Navigation = styled.nav`
 width: 244px;
@@ -34,7 +35,7 @@ height: 1px;
 background-color: #D3D3D3;
 `
 export const Menu = styled.div`
-height: 100%;
+height: 50%;
 padding-left: 5px;
 display: block;
 visibility: visible;
@@ -55,11 +56,12 @@ export const Item = styled.li`
 padding: 5px 0;
 margin-bottom: 16px;
 `
-export const MenuList = styled.a`
+export const MenuList = styled(NavLink)`
 color: #FFFFFF;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
+
 :hover{
     color: #AD61FF;
 }

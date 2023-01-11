@@ -1,7 +1,7 @@
 import {useState} from "react";
-
 import * as S from './style'
 import logo from '../../../img/logo.png';
+
 
 
 function Navigation(){
@@ -22,9 +22,9 @@ function Navigation(){
         {visible && (
         <S.Menu>
             <S.List>
-                <S.Item><S.MenuList>Главное</S.MenuList></S.Item>
-                <S.Item><S.MenuList>Мой плейлист</S.MenuList></S.Item>
-                <S.Item><S.MenuList>Войти</S.MenuList></S.Item>
+                <S.Item><S.MenuList to='/'>Главное</S.MenuList></S.Item>
+                <S.Item><S.MenuList to='/main'>Мой плейлист</S.MenuList ></S.Item>
+                <S.Item><S.MenuList to='/login'>Войти</S.MenuList ></S.Item>
             </S.List>
         </S.Menu>
         )}

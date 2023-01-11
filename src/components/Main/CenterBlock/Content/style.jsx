@@ -100,6 +100,7 @@ display: flex;
 flex-direction: row;
 align-items: center;
 width: 447px;
+padding-bottom: 12px;
 `
 
 export const SvgTrack = styled.svg`

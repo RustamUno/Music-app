@@ -35,6 +35,30 @@ padding: 6px 20px;
 `
 
 export const Open= styled.div`
+overflow-y: scroll;
+height: 300px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #AD61FF;
+position: absolute; 
+padding: 34px;
+gap: 10px;
+background: #313131;
+border-radius: 12px;
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #4B4949;
+  border-radius: 0 12px 12px 0;
+} 
+`
+export const OpenYears=styled.div`
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 403px;
+height: 92px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -46,6 +70,7 @@ gap: 10px;
 background: #313131;
 border-radius: 12px; 
 `
+
 export const List=styled.a`
 display:flex;
 font-weight: 400;
@@ -67,6 +92,7 @@ color: #FFFFFF;
 `
 
 export const Label = styled.label`
+padding-left: 10px;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;

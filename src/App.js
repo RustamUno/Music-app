@@ -10,7 +10,7 @@ function App() {
 
     const [profile, setProfile] = useState(true);
     useEffect(()=>{
-      setTimeout(() => setProfile(false), 2000)
+      setTimeout(() => setProfile(false), 1000)
     }, [])
 
 
