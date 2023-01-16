@@ -147,21 +147,6 @@ text-align: center;
 color: #4E4E4E;
 `
 
-export const Btn = styled.button`
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-margin-top: 36px;
-width: 278px;
-height: 52px;
-left: 821px;
-top: 670px;
-border-radius: 6px;
-background-color: #580EA2;
-color: white;
-`
-
 export const Bars = styled.div`
 position: absolute;
 bottom: 0;

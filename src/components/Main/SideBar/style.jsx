@@ -6,20 +6,13 @@ padding: 20px 90px 20px 78px;
 `
 
 export const Personal = styled.div`
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
-    -ms-flex-direction: row;
-        flex-direction: row;
--webkit-box-align: center;
-    -ms-flex-align: center;
-        align-items: center;
--webkit-box-pack: end;
-    -ms-flex-pack: end;
-        justify-content: flex-end;
+flex-direction: row;
+justify-content: flex-end;
 padding: 12px 0 15px 0;
+`
+export const Bild = styled.li`
+display: flex;
 `
 
 export const Name = styled.p`
@@ -31,7 +24,7 @@ color: #FFFFFF;
 margin-right: 16px;
 `
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
 width: 43px;
 height: 43px;
 background-color: #313131;

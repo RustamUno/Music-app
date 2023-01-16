@@ -1,6 +1,5 @@
-import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import * as S from './style'
-import logo from '../../img/logo.png'
 import search from '../../img/icon/search.svg'
 import prev from '../../img/icon/prev.svg'
 import play from '../../img/icon/play.svg'
@@ -12,32 +11,14 @@ import like from '../../img/icon/like.svg'
 import dislike from '../../img/icon/dislike.svg'
 import volume from '../../img/icon/volume.svg'
 
+import Navigation from '../../components/Main/Navigation/Navigation'
+
+
 export const NotFound = () =>{
-    const [visible, setVisible] = useState(false)
-    const toggleVisibility =()=> setVisible(!visible)
+
     return(
         <S.Base>
-            <S.Navigation>
-                <S.Logo>
-                    <S.Image src={logo} alt="logo" />
-                </S.Logo>
-                <S.Burger onClick={toggleVisibility} role='presentation'>
-                    <S.Line />
-                    <S.Line />
-                    <S.Line />
-                    {visible}
-                </S.Burger>
-                {visible && (
-
-                    <S.Menu>
-                        <S.List>
-                            <S.Item><S.MenuList>Главное</S.MenuList></S.Item>
-                            <S.Item><S.MenuList>Мой плейлист</S.MenuList></S.Item>
-                            <S.Item><S.MenuList>Войти</S.MenuList></S.Item>
-                        </S.List>
-                    </S.Menu>
-                )}
-            </S.Navigation>
+           <Navigation/>
 
             <S.Box>
                 <S.Search>
@@ -50,7 +31,7 @@ export const NotFound = () =>{
                     <S.Title>404</S.Title>
                     <h2>Страница не найдена</h2>
                     <S.Info>Возможно, она была удалена или перенесена на другой адрес</S.Info>
-                    <S.Btn>Вернуться на главную</S.Btn>
+                    <NavLink to='/' className='enter_btn'>Вернуться на главную</NavLink>
                 </S.Warning>
             </S.Box>
         
@@ -96,10 +77,10 @@ export const NotFound = () =>{
                                         </S.TrackSvg>
                                     </S.PlayImage>
                                     <S.PlayAuthor>
-                                        <S.AuthorLink href="http://">Ты та...</S.AuthorLink>
+                                        <S.AuthorLink href="http://">...</S.AuthorLink>
                                     </S.PlayAuthor>
                                     <S.PlayAlbum>
-                                        <S.AlbumLink href="http://">Баста</S.AlbumLink>
+                                        <S.AlbumLink href="http://">...</S.AlbumLink>
                                     </S.PlayAlbum>
                                 </S.PlayContain>
 

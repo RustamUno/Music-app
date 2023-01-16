@@ -2,9 +2,9 @@ import {useState, useEffect} from 'react';
 
 import './App.css';
 import Skeleton from './components/Skeleton/Skeleton';
-import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Bar from './components/bar/Bar';
+import { AppRoutes } from './routes';
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
   return (
     profile ? <Skeleton/> :
     <div className='wrapper' >
-      <Header/>
+    <AppRoutes/>
       <div className='container'>
         <Main/>
         <Bar/>

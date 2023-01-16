@@ -7,19 +7,23 @@ function Filter(){
     const [visibleAuthor, setVisibleAuthor] = useState(false);
     const [visibleYear, setVisibleYear] = useState(false);
     const [visibleGenre, setVisibleGenre] = useState(false);
+
     const toggleVisibilityAuthor =()=> 
-    // closeOpenFilter()
+    
     setVisibleAuthor(!visibleAuthor);
+
     const toggleVisibilityYear =()=> 
-    // closeOpenFilter()
+
     setVisibleYear(!visibleYear);
+
     const toggleVisibilityGenre =()=> 
-    // closeOpenFilter()
+
     setVisibleGenre(!visibleGenre);
+
     // const closeOpenFilter = () => {
-    //     setVisibleAuthor(false)
-    //     setVisibleYear(false)
-    //     setVisibleGenre(false)
+        // setVisibleAuthor(false)
+        // setVisibleYear(false)
+        // setVisibleGenre(false)
     // }
 
 

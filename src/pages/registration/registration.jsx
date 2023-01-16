@@ -1,4 +1,7 @@
+import { NavLink } from 'react-router-dom'
+
 import * as S from './style'
+import '../../App.css'
 import logo from '../../img/logo.png'
 
 export const Registration = () =>{
@@ -11,7 +14,7 @@ export const Registration = () =>{
                 <S.Pas type='password' placeholder='Пароль'/>
                 <S.Repeat type='text' placeholder='Повторите пароль'></S.Repeat>
             </S.BoxEnter>
-            <S.Reg>Зарегистрироваться</S.Reg>
+            <NavLink to='/' className='rgn_btn'>Зарегистрироваться</NavLink>
         </S.Box>
    </S.Base>
     )

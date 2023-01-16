@@ -88,3 +88,38 @@ body {
   width: 100%;
   height: auto;
 }
+
+.enter_btn{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+width: 278px;
+height: 52px;
+left: 41px;
+top: 268px;
+border-radius: 6px;
+border: none;
+background: #580EA2;
+color: white;
+text-align: center;
+padding-top: 15px;
+}
+
+
+.rgn_btn{
+margin-bottom: 47px;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+width: 278px;
+height: 52px;
+border-radius: 6px;
+border: 1px solid #D0CECE;
+color: #000;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+padding-top: 10px;
+}

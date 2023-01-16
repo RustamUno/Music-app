@@ -61,30 +61,3 @@ outline: #E1E1E1;
 border-bottom: 1px solid #E1E1E1
 `
 
-export const Enter = styled.button`
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-width: 278px;
-height: 52px;
-left: 41px;
-top: 268px;
-border-radius: 6px;
-border: none;
-background: #580EA2;
-color: white;
-`
-export const Reg = styled.button`
-margin-bottom: 47px;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-width: 278px;
-height: 52px;
-border-radius: 6px;
-border: none;
-border: 1px solid #D0CECE;
-color: #000;
-`
