@@ -1,152 +1,5 @@
 import styled from 'styled-components'
 
-export const Base = styled.div`
-display: flex;
-max-width: 1920px;
-height: 100vh;
-margin: 0 auto;
-position: relative;
-background-color: #181818;
-`
-
-export const Navigation = styled.nav`
-width: 244px;
-background-color: #181818;
-padding: 20px 0 20px 36px;
-`
-
-export const Logo = styled.div`
-width: 113.33px;
-height: 43px;
-padding: 13px 0 13px 0;
-background-color: transparent;
-margin-bottom: 20px;
-`
-
-export const Burger = styled.div`
-width: 20px;
-height: 36px;
-padding: 13px 0;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-:active{
-    transform: rotateY(180deg);
-    transition: 0.5s;
-}
-
-`
-export const Line = styled.span`
-display: inline-block;
-width: 100%;
-height: 1px;
-background-color: #D3D3D3;
-`
-export const Menu = styled.div`
-height: 50%;
-padding-left: 5px;
-display: block;
-visibility: visible;
-background-color: #1C1C1C;
-`
-
-export const Image = styled.img`
-width: 113.33px;
-height: 17px;
-color: #181818;
-`
-
-export const List = styled.ul`
-padding: 18px 0 10px 0;
-`
-
-export const Item = styled.li`
-padding: 5px 0;
-margin-bottom: 16px;
-`
-export const MenuList = styled.a`
-color: #FFFFFF;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-:hover{
-    color: #AD61FF;
-}
-`
-export const Box = styled.div`
-display: flex;
-gap: 20%;
-flex-grow: 3;
-flex-direction: column;
-align-items: center;
-flex-grow: 3;
-padding: 20px 40px 20px 111px;
-`
-
-export const Search = styled.div`
-width: 100%;
-border-bottom: 1px solid #4E4E4E;
-margin-bottom: 51px;
-display: flex;
-flex-direction: row;
-align-items: center;
-outline: none;
-`
-
-export const Svg = styled.svg`
-width: 17px;
-height: 17px;
-margin-right: 5px;
-stroke: #FFFFFF;
-fill: transparent;
-`
-
-export const SearchPlays = styled.input`
-flex-grow: 100;
-background-color: transparent;
-border: none;
-padding: 13px 10px 14px;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #fff;
-&::placeholder {
-    background-color: transparent;
-    color: #fff;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-`
-
-export const Warning = styled.div`
-display: flex;
-width: 431px;
-height: 366px;
-background-color: #181818;
-flex-direction: column;
-align-items: center;
-
-`
-export const Title = styled.h1`
-font-style: normal;
-font-weight: 400;
-font-size: 160px;
-line-height: 168px;
-color: #fff;
-`
-
-export const Info = styled.p`
-padding-top: 8px;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 24px;
-text-align: center;
-color: #4E4E4E;
-`
-
 export const Bars = styled.div`
 position: absolute;
 bottom: 0;
@@ -184,6 +37,7 @@ export const Controls = styled.div`
 display: flex;
 flex-direction: row;
 padding: 0 27px 0 31px;
+}
 `
 
 export const Prev = styled.div`
@@ -249,10 +103,10 @@ stroke: #696969;
 export const Shuffle = styled.div`
 display: flex;
 align-items: center;
-    :hover svg {
-        fill: transparent;
-        stroke: #ACACAC;
-        cursor: pointer;
+:hover svg {
+    fill: transparent;
+    stroke: #ACACAC;
+    cursor: pointer;
 `
 
 export const ShuffleSvg = styled.svg`
@@ -263,8 +117,6 @@ stroke: #696969;
 `
 
 export const TrackPlay = styled.div`
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
 flex-direction: row;
 `
@@ -281,8 +133,6 @@ export const PlayImage = styled.div`
 width: 51px;
 height: 51px;
 background-color: #313131;
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
 align-items: center;
 justify-content: center;

@@ -72,3 +72,8 @@ border: none;
 outline: #E1E1E1;
 border-bottom: 1px solid #E1E1E1
 `
+
+export const Warning = styled.div`
+height: 104px;
+display: flex;
+flex-direction: column`
