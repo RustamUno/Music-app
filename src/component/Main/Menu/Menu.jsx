@@ -35,7 +35,7 @@ function Menu() {
                         </S.Burger>
                         <S.List>
                             <S.Item><NavLink className="menu_list" to='/'>Главное</NavLink></S.Item>
-                            <S.Item><NavLink className="menu_list" to='/main'>Мой плейлист</NavLink ></S.Item>
+                            <S.Item><NavLink className="menu_list" to='/collection'>Мой плейлист</NavLink ></S.Item>
                             <S.Item><NavLink className="menu_list" to='/login'>Войти</NavLink ></S.Item>
                         </S.List>
                     </S.Menu>

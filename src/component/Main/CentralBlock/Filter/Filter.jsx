@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import  date  from '../../../user/date';
+import  date  from '../../../dataset/date';
 
 import * as S from './style'
 

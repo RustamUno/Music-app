@@ -3,7 +3,7 @@ import * as S from './style'
 import watch from '../../../../img/icon/watch.svg'
 import note from '../../../../img/icon/note.svg'
 import like from '../../../../img/icon/like.svg'
-import date from '../../../user/date'
+import date from '../../../dataset/date'
 
 function Content(){
 

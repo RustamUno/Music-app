@@ -1,5 +1,5 @@
-import  UserList from '../../user/user_list'
-import users from '../../user/constants'
+import UserList from '../../dataset/user_list'
+import users from '../../dataset/constants'
 
 import playlist01 from '../../../img/playlist01.png'
 import playlist02 from '../../../img/playlist02.png'

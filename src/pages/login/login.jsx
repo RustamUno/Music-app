@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
-import users from '../../component/user/constants'
+import users from '../../component/dataset/constants'
 
 import * as S from './style'
 import logo from '../../img/logo.png'

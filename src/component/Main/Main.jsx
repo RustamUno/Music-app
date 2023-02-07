@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 
 import Skeleton from './Skeleton/Skeleton'
-import Player from "./Player/Player"
 import Menu from "./Menu/Menu"
 import Search from "./Search/Search"
 import SideBar from "./SideBar/SideBar"
@@ -26,7 +25,6 @@ function Main(){
                 </S.Box>
 
                     <SideBar/>
-                    <Player/>
 
             </S.Container>
         </S.Wrapper>
