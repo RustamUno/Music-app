@@ -18,7 +18,7 @@ export function Login(){
     const handleSubmit = (event) =>{
         event.preventDefault();
 
-        const dataValue = users.map(value=>value.login===setLogin && value.password===setPassword);
+        const dataValue = users.map(value=>value.login===login && value.password===password);
 
             if(dataValue){
                 setError('');
