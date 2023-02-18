@@ -9,7 +9,7 @@ import { Profile } from './pages/profile'
 // import {PlayList} from './pages/'
 
 
-export function AppRoutes(){
+export function AppRoutes({user}){
     return(
         <Routes>
             <Route path='/login' element={<Login />}/>
@@ -17,10 +17,10 @@ export function AppRoutes(){
             <Route path='*' element={<NotFound/>}/>
 
             <Route element={<ProtectedRoute isAllowed={Boolean(user)}/>}/>
-            <Route path='/' element={<MainBox/>}/>
-            <Route path='/profile/:id' element={<Profile/>}/>
-            {/* <Route path='/collection' element={<Collection/>}/> */}
-            {/* <Route path='/playlist/:id' element={<Playlist/>}/> */}
+                <Route path='/' element={<MainBox/>}/>
+                <Route path='/profile/:id' element={<Profile/>}/>
+                {/* <Route path='/collection' element={<Collection/>}/> */}
+                {/* <Route path='/playlist/:id' element={<Playlist/>}/> */}
 
         </Routes>
     )
